@@ -5,6 +5,9 @@ body {
   padding: 0;
   font-family: "open-sans", sans-serif;
   background-color: rgb(247, 239, 247);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* for responsiveness */
@@ -30,7 +33,6 @@ header {
 /* --------------------------------------------- */
 /* MAIN */
 main {
-  min-height: 54vh;
   flex-grow: 1;
 }
 
