@@ -29,6 +29,10 @@ header {
 
 /* --------------------------------------------- */
 /* MAIN */
+main {
+  min-height: 54vh;
+  flex-grow: 1;
+}
 
 aside {
   position: fixed;
